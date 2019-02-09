@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC89BE67220F687A003A6BA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC89BE66220F687A003A6BA5 /* AppDelegate.swift */; };
+		DC89BE69220F687A003A6BA5 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC89BE68220F687A003A6BA5 /* RootViewController.swift */; };
+		DC89BE6B220F687A003A6BA5 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC89BE6A220F687A003A6BA5 /* DataViewController.swift */; };
+		DC89BE6D220F687A003A6BA5 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC89BE6C220F687A003A6BA5 /* ModelController.swift */; };
+		DC89BE70220F687A003A6BA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC89BE6E220F687A003A6BA5 /* Main.storyboard */; };
+		DC89BE72220F687C003A6BA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC89BE71220F687C003A6BA5 /* Assets.xcassets */; };
+		DC89BE75220F687C003A6BA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC89BE73220F687C003A6BA5 /* LaunchScreen.storyboard */; };
+		DC89BE80220F687D003A6BA5 /* FacePayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC89BE7F220F687D003A6BA5 /* FacePayTests.swift */; };
+		DC89BE8B220F687D003A6BA5 /* FacePayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC89BE8A220F687D003A6BA5 /* FacePayUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC89BE7C220F687D003A6BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC89BE5B220F687A003A6BA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC89BE62220F687A003A6BA5;
+			remoteInfo = FacePay;
+		};
+		DC89BE87220F687D003A6BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC89BE5B220F687A003A6BA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC89BE62220F687A003A6BA5;
+			remoteInfo = FacePay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC89BE63220F687A003A6BA5 /* FacePay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacePay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC89BE66220F687A003A6BA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC89BE68220F687A003A6BA5 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		DC89BE6A220F687A003A6BA5 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		DC89BE6C220F687A003A6BA5 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		DC89BE6F220F687A003A6BA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC89BE71220F687C003A6BA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC89BE74220F687C003A6BA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC89BE76220F687C003A6BA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC89BE7B220F687D003A6BA5 /* FacePayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacePayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC89BE7F220F687D003A6BA5 /* FacePayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacePayTests.swift; sourceTree = "<group>"; };
+		DC89BE81220F687D003A6BA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC89BE86220F687D003A6BA5 /* FacePayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacePayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC89BE8A220F687D003A6BA5 /* FacePayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacePayUITests.swift; sourceTree = "<group>"; };
+		DC89BE8C220F687D003A6BA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC89BE60220F687A003A6BA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC89BE78220F687D003A6BA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC89BE83220F687D003A6BA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC89BE5A220F687A003A6BA5 = {
+			isa = PBXGroup;
+			children = (
+				DC89BE65220F687A003A6BA5 /* FacePay */,
+				DC89BE7E220F687D003A6BA5 /* FacePayTests */,
+				DC89BE89220F687D003A6BA5 /* FacePayUITests */,
+				DC89BE64220F687A003A6BA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC89BE64220F687A003A6BA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC89BE63220F687A003A6BA5 /* FacePay.app */,
+				DC89BE7B220F687D003A6BA5 /* FacePayTests.xctest */,
+				DC89BE86220F687D003A6BA5 /* FacePayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC89BE65220F687A003A6BA5 /* FacePay */ = {
+			isa = PBXGroup;
+			children = (
+				DC89BE66220F687A003A6BA5 /* AppDelegate.swift */,
+				DC89BE68220F687A003A6BA5 /* RootViewController.swift */,
+				DC89BE6A220F687A003A6BA5 /* DataViewController.swift */,
+				DC89BE6C220F687A003A6BA5 /* ModelController.swift */,
+				DC89BE6E220F687A003A6BA5 /* Main.storyboard */,
+				DC89BE71220F687C003A6BA5 /* Assets.xcassets */,
+				DC89BE73220F687C003A6BA5 /* LaunchScreen.storyboard */,
+				DC89BE76220F687C003A6BA5 /* Info.plist */,
+			);
+			path = FacePay;
+			sourceTree = "<group>";
+		};
+		DC89BE7E220F687D003A6BA5 /* FacePayTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC89BE7F220F687D003A6BA5 /* FacePayTests.swift */,
+				DC89BE81220F687D003A6BA5 /* Info.plist */,
+			);
+			path = FacePayTests;
+			sourceTree = "<group>";
+		};
+		DC89BE89220F687D003A6BA5 /* FacePayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC89BE8A220F687D003A6BA5 /* FacePayUITests.swift */,
+				DC89BE8C220F687D003A6BA5 /* Info.plist */,
+			);
+			path = FacePayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC89BE62220F687A003A6BA5 /* FacePay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC89BE8F220F687D003A6BA5 /* Build configuration list for PBXNativeTarget "FacePay" */;
+			buildPhases = (
+				DC89BE5F220F687A003A6BA5 /* Sources */,
+				DC89BE60220F687A003A6BA5 /* Frameworks */,
+				DC89BE61220F687A003A6BA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FacePay;
+			productName = FacePay;
+			productReference = DC89BE63220F687A003A6BA5 /* FacePay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC89BE7A220F687D003A6BA5 /* FacePayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC89BE92220F687D003A6BA5 /* Build configuration list for PBXNativeTarget "FacePayTests" */;
+			buildPhases = (
+				DC89BE77220F687D003A6BA5 /* Sources */,
+				DC89BE78220F687D003A6BA5 /* Frameworks */,
+				DC89BE79220F687D003A6BA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC89BE7D220F687D003A6BA5 /* PBXTargetDependency */,
+			);
+			name = FacePayTests;
+			productName = FacePayTests;
+			productReference = DC89BE7B220F687D003A6BA5 /* FacePayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC89BE85220F687D003A6BA5 /* FacePayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC89BE95220F687D003A6BA5 /* Build configuration list for PBXNativeTarget "FacePayUITests" */;
+			buildPhases = (
+				DC89BE82220F687D003A6BA5 /* Sources */,
+				DC89BE83220F687D003A6BA5 /* Frameworks */,
+				DC89BE84220F687D003A6BA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC89BE88220F687D003A6BA5 /* PBXTargetDependency */,
+			);
+			name = FacePayUITests;
+			productName = FacePayUITests;
+			productReference = DC89BE86220F687D003A6BA5 /* FacePayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC89BE5B220F687A003A6BA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = FacePayers;
+				TargetAttributes = {
+					DC89BE62220F687A003A6BA5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					DC89BE7A220F687D003A6BA5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DC89BE62220F687A003A6BA5;
+					};
+					DC89BE85220F687D003A6BA5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DC89BE62220F687A003A6BA5;
+					};
+				};
+			};
+			buildConfigurationList = DC89BE5E220F687A003A6BA5 /* Build configuration list for PBXProject "FacePay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC89BE5A220F687A003A6BA5;
+			productRefGroup = DC89BE64220F687A003A6BA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC89BE62220F687A003A6BA5 /* FacePay */,
+				DC89BE7A220F687D003A6BA5 /* FacePayTests */,
+				DC89BE85220F687D003A6BA5 /* FacePayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC89BE61220F687A003A6BA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC89BE75220F687C003A6BA5 /* LaunchScreen.storyboard in Resources */,
+				DC89BE72220F687C003A6BA5 /* Assets.xcassets in Resources */,
+				DC89BE70220F687A003A6BA5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC89BE79220F687D003A6BA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC89BE84220F687D003A6BA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC89BE5F220F687A003A6BA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC89BE69220F687A003A6BA5 /* RootViewController.swift in Sources */,
+				DC89BE6D220F687A003A6BA5 /* ModelController.swift in Sources */,
+				DC89BE6B220F687A003A6BA5 /* DataViewController.swift in Sources */,
+				DC89BE67220F687A003A6BA5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC89BE77220F687D003A6BA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC89BE80220F687D003A6BA5 /* FacePayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC89BE82220F687D003A6BA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC89BE8B220F687D003A6BA5 /* FacePayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC89BE7D220F687D003A6BA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC89BE62220F687A003A6BA5 /* FacePay */;
+			targetProxy = DC89BE7C220F687D003A6BA5 /* PBXContainerItemProxy */;
+		};
+		DC89BE88220F687D003A6BA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC89BE62220F687A003A6BA5 /* FacePay */;
+			targetProxy = DC89BE87220F687D003A6BA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC89BE6E220F687A003A6BA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC89BE6F220F687A003A6BA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC89BE73220F687C003A6BA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC89BE74220F687C003A6BA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC89BE8D220F687D003A6BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC89BE8E220F687D003A6BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC89BE90220F687D003A6BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FacePay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DBEC.FacePay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC89BE91220F687D003A6BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FacePay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DBEC.FacePay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC89BE93220F687D003A6BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FacePayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DBEC.FacePayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacePay.app/FacePay";
+			};
+			name = Debug;
+		};
+		DC89BE94220F687D003A6BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FacePayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DBEC.FacePayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacePay.app/FacePay";
+			};
+			name = Release;
+		};
+		DC89BE96220F687D003A6BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FacePayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DBEC.FacePayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FacePay;
+			};
+			name = Debug;
+		};
+		DC89BE97220F687D003A6BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FacePayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DBEC.FacePayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FacePay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC89BE5E220F687A003A6BA5 /* Build configuration list for PBXProject "FacePay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC89BE8D220F687D003A6BA5 /* Debug */,
+				DC89BE8E220F687D003A6BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC89BE8F220F687D003A6BA5 /* Build configuration list for PBXNativeTarget "FacePay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC89BE90220F687D003A6BA5 /* Debug */,
+				DC89BE91220F687D003A6BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC89BE92220F687D003A6BA5 /* Build configuration list for PBXNativeTarget "FacePayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC89BE93220F687D003A6BA5 /* Debug */,
+				DC89BE94220F687D003A6BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC89BE95220F687D003A6BA5 /* Build configuration list for PBXNativeTarget "FacePayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC89BE96220F687D003A6BA5 /* Debug */,
+				DC89BE97220F687D003A6BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC89BE5B220F687A003A6BA5 /* Project object */;
+}
